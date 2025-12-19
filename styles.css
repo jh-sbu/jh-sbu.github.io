@@ -90,6 +90,7 @@ h2 {
 
 .report-list {
     list-style: none;
+    text-align: center;
 }
 
 .report-list li {
@@ -97,6 +98,7 @@ h2 {
 }
 
 .report-list a {
+    display: inline-block;
     color: var(--secondary-color);
     text-decoration: none;
     transition: color 0.3s ease;
